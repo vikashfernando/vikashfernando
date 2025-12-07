@@ -1,12 +1,70 @@
-<h1 align="center">Hi 👋, I'm Vikash</h1>
-<h3 align="center">I'm a Software Engineering student at IIT, Sri Lanka.</h3>
+<div align="center">
 
-<p align="center">I love coding, learning new tech, and creating content in my free time.</p>
+<!-- Title -->
+<h2 style="color:#6a0dad;">🌙 Factorial Tree</h2>
 
----
-### Contact Me
-<p align="left">
-<a href="https://vikashfernando.carrd.co/" target="_blank">
-<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/internetexplorer.svg" alt="website" height="30" width="40" />
-</a>
-</p>
+<!-- Tree Canvas -->
+<div style="
+  background: #1a0033;
+  width: 300px;
+  height: 400px;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+">
+
+  <!-- Tree -->
+  <div style="
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20px;
+    height: 120px;
+    background: #4b0082;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  "></div>
+
+  <!-- Branches -->
+  <div style="position:absolute; bottom:100px; left:50%; width:100px; height:10px; background:#5a189a; transform:translateX(-50%) rotate(25deg);"></div>
+  <div style="position:absolute; bottom:100px; left:50%; width:100px; height:10px; background:#5a189a; transform:translateX(-50%) rotate(-25deg);"></div>
+
+  <!-- Leaves -->
+  <div class="leaf">🍃</div>
+  <div class="leaf">🍃</div>
+  <div class="leaf">🍃</div>
+
+</div>
+
+<!-- Falling leaves animation -->
+<style>
+.leaf {
+  position: absolute;
+  top: -20px;
+  font-size: 20px;
+  animation: fall 5s linear infinite;
+}
+
+.leaf:nth-child(1) {
+  left: 30px;
+  animation-delay: 0s;
+}
+
+.leaf:nth-child(2) {
+  left: 130px;
+  animation-delay: 1s;
+}
+
+.leaf:nth-child(3) {
+  left: 230px;
+  animation-delay: 2s;
+}
+
+@keyframes fall {
+  0% { top: -20px; opacity: 0; }
+  50% { opacity: 1; }
+  100% { top: 380px; opacity: 0; transform: rotate(360deg); }
+}
+</style>
+
+</div>
