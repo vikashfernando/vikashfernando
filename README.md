@@ -2,7 +2,7 @@
 
 I'm [**Vikash**](https://vikashdeshitha.vercel.app/), a Software Engineering student from Sri Lanka.
 
-Currently working as an Oracle Finance Intern at [**@Next**](https://www.next.co.uk/) under the Environment Operations Team, focusing on Oracle Fusion, cloud technologies, and enterprise systems.
+Currently working as an Oracle Finance Intern at [**@Next**](https://www.next.co.uk/) under the EnvOps, focusing on Oracle Fusion, cloud technologies, and enterprise systems.
 
 Outside of tech, I enjoy creating content.
 
